@@ -1,0 +1,17 @@
+# Ignore large data files
+data/raw/TCGA_BRCA_RNAseq_Expression.txt
+data/raw/*.txt
+data/raw/*.csv
+data/raw/*.tsv
+
+# But keep the download instructions
+!data/raw/DOWNLOAD_INSTRUCTIONS.md
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Results (optional - you might want to track small results)
+results/figures/*.png
+results/figures/*.jpg
